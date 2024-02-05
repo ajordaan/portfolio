@@ -34,11 +34,6 @@ const projects = (await getCollection('work'))
 					tagline="I am a Full-stack Developer who likes building well-tested, accessible and beautiful websites"
 					align="start"
 				>
-					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
-					</div>
 				</Hero>
 
 				<img
@@ -55,7 +50,7 @@ const projects = (await getCollection('work'))
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Projects</h3>
-					<p>Building small projects is how I learn new things and keep my skills sharp, plus it's fun!</p>
+					<p>Building projects is how I learn new things and keep my skills sharp, plus it's fun!</p>
 				</header>
 
 				<div class="gallery">
@@ -80,19 +75,26 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Skills</h3>
 					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
+            I have experience in a number of programming languages and frameworks. I love learning new things and continuously improving my knowledge and skills
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							[
+                {"name": "Javascript", "logoUrl": "javascript-logo.png"},
+                {"name": "Ruby", "logoUrl": "ruby-logo.png"},
+                {"name": "CSS", "logoUrl": "css-logo.png"},
+                {"name": "Rails", "logoUrl": "rails-logo.png"},
+                {"name": "React", "logoUrl": "react-logo.png"},
+                {"name": "Firebase", "logoUrl": "firebase-logo.png"}
+              ].map((brand) => (
 								<li class="mention-card">
-									<p>{brand}</p>
+									<p>{brand.name}</p>
+                  <img src=`/assets/${brand.logoUrl}` alt="">
 								</li>
 							))
 						}
@@ -231,7 +233,9 @@ const projects = (await getCollection('work'))
 	.mention-card {
 		display: flex;
 		height: 7rem;
-		justify-content: center;
+		justify-content: space-between;
+    padding: 1rem;
+    font-size: 2rem;
 		align-items: center;
 		text-align: center;
 		border: 1px solid var(--gray-800);
@@ -247,4 +251,10 @@ const projects = (await getCollection('work'))
 			height: 9.5rem;
 		}
 	}
+
+  .mention-card img {
+    width: 35%;
+    height: 35%;
+    object-fit: contain;
+  }
 </style>
