@@ -1,5 +1,7 @@
 ---
 title: Word Race
+featured: true
+featuredOrder: 2
 publishDate: 2022-06-01 00:00:00
 img: /assets/word_race.png
 img_alt: The homepage of Classic Car Collections, showing a menu bar and a large hero image of a green Porsche

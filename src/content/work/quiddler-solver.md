@@ -1,10 +1,12 @@
 ---
 title: Quiddler Solver
+featured: true
+featuredOrder: 3
 publishDate: 2022-06-01 00:00:00
 img: /assets/quiddler_solver.png
 img_alt: The homepage of Quiddler Solver, showing an example of the highest score for a 7 card hand
 description: |
-  An auction platform that allows users to view and bid on collections of vehicles in realtime.
+  Find the highest possible score, given a hand in the card game Quiddler
 tags:
   - Svelte
   - Service Worker

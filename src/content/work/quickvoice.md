@@ -1,6 +1,8 @@
 ---
 title: Quickvoice
 publishDate: 2022-10-01 00:00:00
+featured: true
+featuredOrder: 1
 img: /assets/quickvoice.png
 img_alt: The student detail page of Quickvoice
 description: |
@@ -18,3 +20,5 @@ The project now runs on rails, hosted on Fly.io, and has many more features. It 
 Parents are able to signup their children online, and existing parents are able to re-enrol students who currently attend lesssons and would like to continue the following year. 
 
 I have learn't a great deal from this project, aside from the technical skills I developed while builiding features, I also learn't about gathering requrements, evaluating the scope of features, managing my time between work and side projects.
+
+I am quite proud of this project, and am excited to keep building and adding features.

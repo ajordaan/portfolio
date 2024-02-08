@@ -1,6 +1,8 @@
 ---
 title: Classic Car Collections
 publishDate: 2021-06-01 00:00:00
+featured: true
+featuredOrder: 2
 img: /assets/classic_car_collections.png
 img_alt: The homepage of Classic Car Collections, showing a menu bar and a large hero image of a green Porsche
 description: |
