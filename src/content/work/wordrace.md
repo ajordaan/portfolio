@@ -25,7 +25,7 @@ This is a spinoff of the super popular game, Wordle. This app allows you to chal
 
 #### Project Highlights:
 
-**Friend System **: Challenge people by simply sending them a game code, after the game you can add each other as friends, quickly invite each other to games, and see a leaderboard of your friends to keep the competition going!
+**Friend System**: Challenge people by simply sending them a game code, after the game you can add each other as friends, quickly invite each other to games, and see a leaderboard of your friends to keep the competition going!
 
 **Real-Time Games:** See how many words your opponent has guessed and how many letters they have right in real-time as you are playing. Once one person correctly guesses the word, the game is over. The game over screen lets you see what the word was, and what your opponent's board looked like.
 
