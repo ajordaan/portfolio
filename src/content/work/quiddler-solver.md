@@ -24,12 +24,12 @@ Single Page Application built with Svelte.
 
 #### Project Highlights:
 
-Service Worker: The project uses a service worker to offload the permutation work so that it can be run in the background and not freeze the main UI thread.
+**Service Worker:** The project uses a service worker to offload the permutation work so that it can be run in the background and not freeze the main UI thread.
 
-Animation: Used the FLIP animation technique to create fluid animation sequences that are visually appealing. 
+**Animation:** Used the FLIP animation technique to create fluid animation sequences that are visually appealing. 
 
 #### Conclusion:
 
 Although this was a small project, it still involved using some mathematics to generate all the permutations and careful use of algorithms to ensure performance. 
 
-I learn't how to use service workers to process data in the background, and show updates in the app as the service worker makes progress with its task.
+I learned how to use service workers to process data in the background, and show updates in the app as the service worker makes progress with its task.

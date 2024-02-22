@@ -6,14 +6,14 @@ featuredOrder: 2
 img: /assets/classic_car_collections.png
 img_alt: The homepage of Classic Car Collections, showing a menu bar and a large hero image of a green Porsche
 description: |
-  An auction platform that allows users to view and bid on collections of vehicles in realtime.
+  An auction platform that allows users to view and bid on collections of vehicles in real-time.
 tags:
   - Vue
   - Firebase
   - Serverless
 ---
 
-This is a website I built for a Classic Car Auction House that lets users view, buy and sell their cars. It features live auctions where users can bid on cars in realtime. 
+This is a website I built for a Classic Car Auction House that lets users view, buy and sell their cars. It features live auctions where users can bid on cars in real-time. 
 
 Users can search for any car that is currently for sale and search by make model year or even color. Users can upload details and pictures of vehicles that they would like to sell. 
 
@@ -21,7 +21,7 @@ In addition to the consumer facing site, there is an admin portal that lets admi
 
 #### Technologies Used:
 
-**Frontend:** The app was build as a single page application using Vue.js, which is hosted as a static site using Firebase hosting.
+**Frontend:** The app was built as a single page application using Vue.js, which is hosted as a static site using Firebase hosting.
 
 **Backend:** Firebase was used as the backend of the application. The use of Firebase allowed for the integration of real-time database updates, authentication, serverless functions and hosting.
 
@@ -35,4 +35,4 @@ In addition to the consumer facing site, there is an admin portal that lets admi
 
 #### Conclusion:
 
-I learn't a lot about Firebase and microservices while building this project. I also got to integrate with other services like Algolia for the search functionality.
+I learned a lot about Firebase and microservices while building this project. I also got to integrate with other services like Algolia for the search functionality.
