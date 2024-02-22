@@ -5,6 +5,7 @@ featured: true
 featuredOrder: 2
 img: /assets/classic_car_collections.png
 img_alt: The homepage of Classic Car Collections, showing a menu bar and a large hero image of a green Porsche
+link: https://classiccarcollections.com
 description: |
   An auction platform that allows users to view and bid on collections of vehicles in real-time.
 tags:

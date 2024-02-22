@@ -5,6 +5,7 @@ featuredOrder: 2
 publishDate: 2022-06-01 00:00:00
 img: /assets/word_race.png
 img_alt: The Game Over screen of word race, showing the result of the game, and the players' boards
+link: https://wordrace.co.za
 description: |
   A real-time word game, race your friend to find the word first!
 tags:

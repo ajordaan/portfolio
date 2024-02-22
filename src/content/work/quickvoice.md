@@ -5,6 +5,7 @@ featured: true
 featuredOrder: 1
 img: /assets/quickvoice.png
 img_alt: The student detail page of Quickvoice
+link: https://quickvoice.co.za
 description: |
   A custom CRM application that handles everything a small business needs to manage their users effectively
 tags:
